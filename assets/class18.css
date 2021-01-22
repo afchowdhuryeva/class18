@@ -181,5 +181,35 @@
     color: white !important;
 }
 
-
+@media screen and (max-width:425px){
+   .wrapper{
+       width: 100%;
+       padding: 20px;
+   }
+   .service{
+       width: 100%;
+       padding: 40px;
+   }
+ .cards{
+       flex-direction: column;
+       width: 100%;
+   }
+   .service-card{
+       width: 100%;
+   }
+   .information{
+       padding: 40px;
+   }
+   .information-blog{
+       flex-direction: column;
+       width: 100%;
+       
+   }
+   .individual-blog{
+       width: 100%;
+       
+   }
+        
+    }
+}
 
