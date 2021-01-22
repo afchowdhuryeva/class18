@@ -208,8 +208,34 @@
    .individual-blog{
        width: 100%;
        
-   }
+   }   
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .information-blog{
+        flex-direction: column;
+        width: 100%;
         
+    }
+    .individual-blog{
+        width: 100%;
+        
+    } 
+    .information{
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1440px){
+    .information-blog{
+        flex-direction: row;
+        
+    }
+    .individual-blog{
+        width: 33.333%;
+        
+    } 
+    .information{
+        padding: 40px;
     }
 }
 
